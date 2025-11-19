@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login | AURORA RESTAURANT</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+
+  <style>
+    body {
+      background: #f5f5f7;
+      font-family: "Poppins", sans-serif;
+    }
+    .login-card {
+      max-width: 400px;
+      margin: 120px auto;
+      background: #ffffff;
+      padding: 25px 30px;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+    }
+    .login-title {
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="HOME.HTML">AURORA RESTAURANT</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto me-3">
+         <li class="nav-item"><a class="nav-link active" href="HOME.HTML">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="BUILD.HTML">Build</a></li>
+        <li class="nav-item"><a class="nav-link" href="BOOK.HTML">Book Slot</a></li>
+        <li class="nav-item"><a class="nav-link" href="CONTACT.HTML">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="login-card">
+  <h3 class="text-center login-title">Login</h3>
+
+  <form>
+    <label>Email</label>
+    <input type="email" class="form-control mb-3" placeholder="Enter Email">
+
+    <label>Password</label>
+    <input type="password" class="form-control mb-3" placeholder="Enter Password">
+
+    <button class="btn btn-dark w-100 mt-2">Login</button>
+  </form>
+
+  <p class="text-center mt-3" style="font-size: 14px;">
+    Don't have an account?
+    <a href="signup.html">Sign Up</a>
+  </p>
+</div>
+
+</body>
+</html>
